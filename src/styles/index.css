@@ -1,3 +1,34 @@
+body {
+    margin: 50px auto;
+    max-width: 1000px;
+    padding: 0 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    background-color: rgba(243, 239, 240, 0.747);
+    box-sizing: border-box;
+}
+
+
+.delete-icon {
+    display: none;
+    cursor: pointer;
+    color: red;
+  }
+  
+
+  .list-group-item:hover .delete-icon {
+    display: inline;
+  }
+  
+  
+
+@media (max-width: 768px) {
+    body {
+        max-width: 100%; 
+        padding: 0 10px;
+    }
+}
+
 
 /* 
 
