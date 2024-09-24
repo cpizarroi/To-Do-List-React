@@ -8,27 +8,15 @@ body {
     box-sizing: border-box;
 }
 
-
 .delete-icon {
     display: none;
     cursor: pointer;
     color: red;
   }
-  
 
   .list-group-item:hover .delete-icon {
     display: inline;
   }
-  
-  
-
-@media (max-width: 768px) {
-    body {
-        max-width: 100%; 
-        padding: 0 10px;
-    }
-}
-
 
 /* 
 
